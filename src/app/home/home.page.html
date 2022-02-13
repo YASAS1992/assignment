@@ -1,0 +1,79 @@
+<ion-content>
+  <ion-card class="bg_image">
+    <ion-card-header >
+      <img src="assets/translate.png" alt="true" width="40" height="40" class="position">
+      <table class="card_header">
+        <tr><ion-card-title class="two">Login to</ion-card-title></tr>
+        <tr><ion-card-title class="two">your account</ion-card-title></tr>
+      </table>
+    </ion-card-header>
+  
+    <ion-card-content>
+     
+      <ion-text class="seip1">Enter your username and password to login</ion-text>
+
+
+      <ion-card-content class="rcorners">
+
+        <ion-item>
+          <ion-input [(ngModel)]="loginObj.username"  placeholder="Enter Your Username"></ion-input>
+        </ion-item>
+  
+        <ion-item>
+          <ion-input [(ngModel)]="loginObj.password"  placeholder="Enter Password" type="password"></ion-input>
+        </ion-item>
+
+      </ion-card-content>
+
+      <ion-button style="text-transform:none" class="register" (click)="login()">Login</ion-button>
+
+      <div class="ion-text-center center card_header">
+        <img src="assets/fingerprint.png" alt="true" width="40" height="40">
+      </div>
+
+      <div class="ion-text-center center">
+        One touch login
+      </div>
+
+    </ion-card-content>
+
+    <ion-row>
+      <ion-col>
+        <div class="ion-text-center center">
+          By Login your agree to our T&C and Privacy Policy.
+        </div>
+      </ion-col>
+     
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <div class="ion-text-center black-text">
+          Havent got a UPay account ?
+        </div>
+      </ion-col>
+     
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <div class="ion-text-center center" (click)="singup()">
+          Sing Up.
+        </div>
+      </ion-col>
+     
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <div class="ion-text-center center">
+          Explore App
+        </div>
+      </ion-col>
+     
+    </ion-row>
+    
+
+  </ion-card>
+</ion-content>
+

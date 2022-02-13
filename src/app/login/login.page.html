@@ -1,0 +1,81 @@
+<ion-content>
+  <ion-card class="bg_image">
+    <ion-card-header >
+      <img src="assets/translate.png" alt="true" width="40" height="40" class="position">
+      <table class="card_header">
+        <tr><ion-card-title class="two">Complete Your</ion-card-title></tr>
+        <tr><ion-card-title class="two">2 steps registration</ion-card-title></tr>
+      </table>
+    </ion-card-header>
+  
+    <ion-card-content>
+     
+      <ion-text class="seip1">Step 1</ion-text>
+
+
+      <ion-card-content class="rcorners">
+
+        <ion-item>
+          <ion-input [(ngModel)]="userObj.email" placeholder="Enter Your Email"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-input [(ngModel)]="userObj.name" placeholder="Enter Your Name"></ion-input>
+        </ion-item>
+  
+        <ion-item>
+          <ion-input [(ngModel)]="userObj.nic" placeholder="Enter Your NIC"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-input [(ngModel)]="userObj.phone" placeholder="Enter Your Mobile"></ion-input>
+        </ion-item>
+  
+        <ion-item>
+          <ion-input [(ngModel)]="userObj.password" placeholder="Enter Password" type="password"></ion-input>
+        </ion-item>
+
+      </ion-card-content>
+
+      <ion-button style="text-transform:none" class="register" (click)="register()">Continue</ion-button>
+    </ion-card-content>
+
+    <ion-row>
+      <ion-col>
+        <div class="ion-text-center center">
+          By Signing uo your agree to our T&C and Privacy Policy.
+        </div>
+      </ion-col>
+     
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <div class="ion-text-center black-text">
+          Already got a UPay account ?
+        </div>
+      </ion-col>
+     
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <div class="ion-text-center center" (click)="login()">
+          Login.
+        </div>
+      </ion-col>
+     
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <div class="ion-text-center center">
+          Explore App
+        </div>
+      </ion-col>
+     
+    </ion-row>
+    
+
+  </ion-card>
+</ion-content>

@@ -1,0 +1,60 @@
+.bg_image{
+    background-image: url('../../assets/bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+.two {
+    color: white;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.ion-card{
+     flex-direction: column;
+}
+
+.seip1{
+    color: white;
+    display: inline-block;
+    font-size: 11px;
+}
+
+.center{
+    color: white;
+    font-size: 11px;
+}
+
+.black-text{
+    color: black;
+    font-size: 12px;
+}
+
+.position{
+    float:right;
+}
+
+.card_header{
+    margin-top: 10%;
+}
+
+.rcorners {
+    border-radius: 25px;
+    background: white;
+    width: auto;
+    height: auto;
+    margin-top: 10%;
+}
+
+.register{
+    --background: black;
+    background-color: black;
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    margin-top: 10%;
+    padding: 15px;
+}
